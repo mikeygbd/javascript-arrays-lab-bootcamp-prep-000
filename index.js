@@ -38,3 +38,9 @@ var kittens = ["Milo", "Otis", "Garfield"]
   kittens.pop('Garfield')
   return kittens
 }
+var kittens = ["Milo", "Otis", "Garfield"]
+function removeFirstKitten(){
+  var kittens = ["Milo", "Otis", "Garfield"]
+  kittens.shift('Milo')
+  return kittens
+}
