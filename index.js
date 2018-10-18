@@ -23,6 +23,6 @@ function destructivelyRemoveFirstKitten() {
 var kittens = ["Milo", "Otis", "Garfield"]
 function appendKitten(name) {
   var kittens = ["Milo", "Otis", "Garfield"]
-  kittens.unshift('Bob')
+  kittens.shift('Broom')
   return kittens
 }
