@@ -26,3 +26,9 @@ function appendKitten(name) {
   kittens.push('Broom')
   return kittens
 }
+var kittens = ["Milo", "Otis", "Garfield"]
+function prependKitten(name) {
+var kittens = ["Milo", "Otis", "Garfield"]
+kittens.shift('Bob')
+return kittens
+}
